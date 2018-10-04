@@ -3,7 +3,15 @@
 
  var Test = {
      view: function () {
-         return m('.div','Hello World');
+         return m('.container',
+             m('.row',
+                 m('.one-half column',
+                     m('h4','Base Page'),
+                     m('',`This page rendered using mithrilJS and the styles are used from skeleton`
+                    )
+                 )
+             )
+         );
      }
  }
 
