@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'irSans';
+    src: url('../assets/fonts/iranSans/IRANSansWeb(FaNum).woff2') format('woff2'),
+        url('../assets/fonts/iranSans/IRANSansWeb(FaNum).woff') format('woff'),
+        url('../assets/fonts/iranSans/IRANSansWeb(FaNum).ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src:url('../assets/fonts/raleway/Raleway-Regular.ttf') format('truetype'),
+}
+
 body {
     background: #F5F5F5;
+    font-family: "irSans"
 }
